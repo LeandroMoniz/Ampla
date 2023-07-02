@@ -6,19 +6,19 @@ import { Link } from "react-router-dom"
 import logo from "../../assets/img/amplaLogo.png"
 import Whats from "../../assets/img/akar-icons_whatsapp-fill.svg"
 
-const Header = ( ) => {
+const Header = () => {
     return (
         < HeaderStyles>
             <nav>
                 <img src={logo} alt="logo Ampla" />
                 <div className="link">
-                    <Link To="/">Home</Link> 
-                    <Link To="/">A Empresa</Link> 
-                    <Link To="/about">Serviço</Link> 
-                    <Link To="/">Contato</Link> 
+                    <Link To="/">Home</Link>
+                    <Link To="/">A Empresa</Link>
+                    <Link To="/about">Serviço</Link>
+                    <Link To="/">Contato</Link>
                 </div>
                 <a href="https://web.whatsapp.com/send?phone=551992310000" >
-                   <img src={Whats} alt="Logo WhatsApp"/>
+                    <img src={Whats} alt="Logo WhatsApp" />
                 </a>
 
             </nav>
