@@ -51,7 +51,7 @@ Feature: Header - Funcionalidade: Cabeçalho
 
 
 ### Imagem 1
-![](https://hackmd.io/_uploads/B1m4xjTuh.png)
+![2023-07-01_09h46_05](https://github.com/LeandroMoniz/Ampla/assets/77640576/5793d52e-f200-4929-857f-3c17243cc0fc)
 
 
 ```gherkin=
