@@ -1,9 +1,10 @@
+import SectionTitle from "../../../../assets/Components/SectionTitle/SectionTitle";
 import { ContactStyles } from "./ContactStyles";
 
 const Contact = () => {
     return (
         <ContactStyles>
-            <h1>Contato</h1>
+            <SectionTitle subTitle={"Entre em contato"} Title={"Contato"} />
             <form target="_blank" action="https://formsubmit.co/Leandromoniz55@gmail.com" method="POST">
                 <label htmlFor="name">Nome*</label>
                 <input type="text" id='name' name="name" placeholder='Escreva seu nome' required />

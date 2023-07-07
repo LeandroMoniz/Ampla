@@ -1,9 +1,10 @@
+import SectionTitle from "../../../../assets/Components/SectionTitle/SectionTitle";
 import { AboutStyles } from "./AboutStyles";
 
 const About = () => {
     return (
         <AboutStyles>
-            <h1>Sobre</h1>
+            <SectionTitle subTitle={"Um pouco sobre a empresa"} Title={"Sobre"} />
         </AboutStyles>
     );
 };

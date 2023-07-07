@@ -1,6 +1,12 @@
+import { DescriptionStyles } from "./DescriptionStyles";
+
+
 const Description = () => {
     return (
-        <h1>Descrição</h1>
+        <DescriptionStyles>
+            <h1>Descrição</h1>
+        </DescriptionStyles>
+
     );
 };
 
