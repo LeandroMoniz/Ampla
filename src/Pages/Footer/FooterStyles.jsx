@@ -16,7 +16,7 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
         }
 
     @media (max-width: 425px) {
-         border-radius: 0px 150px 0px 0px;
+         border-radius: 0px 120px 0px 0px;
          flex-direction: column;
         }
    }
@@ -36,14 +36,13 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
       @media (max-width: 425px) {
         align-self: baseline;
          margin-left: 10%;
-         width: 80%;
+         width: 70%;
         }
    }
 
    .info{
          color: #ffffff;
          padding: 0% 0% 5% ;
-
          font-size: 2.6rem;
    }
    .email{
@@ -60,7 +59,7 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
       width: 40%;
       @media (max-width: 425px) {
          align-self: baseline;
-         width: 100%;
+         width: 70%;
         }
    }
    .rede a{
