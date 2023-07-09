@@ -3,6 +3,9 @@ import styled from "styled-components"
 export const HeaderStyles = styled.header`
 @media (max-width: 768px){
     background: #172E4E;
+    display: flex;
+    justify-content: center;
+
 }
     .flex-container{
     background: #172E4E;
@@ -41,19 +44,28 @@ export const HeaderStyles = styled.header`
     justify-content: center;
     align-self: center; 
 }
->svg.mobile {
+.mobile_header {
         display: none; }
 
 @media (max-width: 768px) {
         .nav-bar {
             display: none;
-            background: #172E4E;
+        }
+        .mobile_header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center; 
             
         }
-        >svg.mobile {
+        .mobile {
             color: #ffffff;
-            display: block;
-            cursor: pointer;
+            width: 40%;
+        }
+        .mobile_header img {
+            height: 70%;
+            width: 70%;
+            padding: 1% 2% 0% 2%;
         }
     }
 

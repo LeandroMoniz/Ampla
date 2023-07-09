@@ -6,9 +6,12 @@ import {
     IoClose,
     IoHome,
     IoPersonCircle,
-    IoGitBranch,
     IoMail,
+    IoLibraryOutline
 } from "react-icons/io5";
+import {
+    ImWhatsapp
+} from "react-icons/im"
 
 const MenuMobile = ({ menuIsVisible, setMenuIsVisible }) => {
     return (
@@ -30,13 +33,19 @@ const MenuMobile = ({ menuIsVisible, setMenuIsVisible }) => {
 
                 <a href="#projects" onClick={() => setMenuIsVisible(false)}>
                     <span>
-                        <IoGitBranch /> Serviços
+                        <IoLibraryOutline /> Serviços
                     </span>
                 </a>
 
                 <a href="#contact" onClick={() => setMenuIsVisible(false)}>
                     <span>
                         <IoMail /> Contato
+                    </span>
+                </a>
+
+                <a href="https://web.whatsapp.com/send?phone=551992310000" onClick={() => setMenuIsVisible(false)}>
+                    <span>
+                        <ImWhatsapp /> WhatsApp
                     </span>
                 </a>
             </nav>

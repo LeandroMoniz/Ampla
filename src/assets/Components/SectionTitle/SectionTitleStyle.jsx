@@ -19,7 +19,7 @@ export const SectionTitleStyle = styled.div`
         font-size: 1.2rem;
     }
     h2 {
-        color: var(--cll-primary);
-        font-weight: var(--fw-text);
+        color: #000;
+        font-weight: 3.5rem;
     }
 `;

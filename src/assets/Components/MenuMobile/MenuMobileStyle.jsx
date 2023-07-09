@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const MenuMobileStyle = styled.div`
     position: fixed;
-    backdrop-filter: blur(3px);
+    /* backdrop-filter: blur(3px); */
     width: 100%;
     height: 100%;
     top: 0;
@@ -13,17 +13,16 @@ export const MenuMobileStyle = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180deg, rgba( 165, 159, 168, 1) 20%, rgba(254, 252, 255, 1) 80%);
+    background: #172E4E;
     opacity: 0;
     pointer-events: none;
-    
     transform: translateY(50px);
     transition: .5s;
     >svg {
         position: absolute;
         top: 1rem;
         right: 1rem;
-        color: #000000;
+        color: #ffffff;
         cursor: pointer;
         transform: rotate(45deg);
         transition: .5s;
@@ -32,13 +31,13 @@ export const MenuMobileStyle = styled.div`
         
         display: flex;
         flex-direction: column;
-        gap: 2.5rem;
+        gap: 1.5rem;
         transform: scale(0.7);
         transition: .5s;
         a {
-            color: #000000;
-            font-size: 2.5rem;
-            font-weight: var(--fw-text);
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: 400;
             
         }
     }

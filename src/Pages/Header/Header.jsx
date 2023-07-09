@@ -30,7 +30,10 @@ const Header = ({ setMenuIsVisible }) => {
                     </div>
                 </div>
             </nav>
-            <IoMenu onClick={() => setMenuIsVisible(true)} className="mobile" size={35} />
+            <div className="mobile_header">
+                <img src={logo} alt="Mobile" />
+                <IoMenu onClick={() => setMenuIsVisible(true)} className="mobile" size={35} />
+            </div>
         </HeaderStyles>
     );
 };
