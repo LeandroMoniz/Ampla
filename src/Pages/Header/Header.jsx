@@ -5,7 +5,7 @@ import { IoMenu } from 'react-icons/io5'
 
 //logo
 import logo from "../../assets/img/amplaLogo.png"
-import Whats from "../../assets/img/akar-icons_whatsapp-fill.svg"
+import Whats from "../../assets/img/whatsapp.svg"
 
 const Header = ({ setMenuIsVisible }) => {
     return (

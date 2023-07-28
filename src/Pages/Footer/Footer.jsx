@@ -1,7 +1,7 @@
 import { FooterStyles } from "./FooterStyles";
 
 //IMG
-import logo from "../../assets/img/Logo_Black.png"
+import logo from "../../assets/img/logo_footer_new.png"
 
 import Facebook from "../../assets/img/logos_facebook.svg"
 import Instagram from "../../assets/img/skill-icons_instagram.svg"

@@ -6,7 +6,7 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
    .flex-container {
     border-radius: 0px 300px 0px 0px;
     border: 1px solid #000;
-    background: #BFA442;
+    background: #FFE588;
     height: 303px;
     display: flex;
     justify-content: space-evenly;
@@ -21,8 +21,12 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
         }
    }
    /* logo */
+   .img img {
+      width: 130%;
+      height: 130%;
+   }
    .img{
-      width: 30%;
+      /* width: 30%; */
       padding: 2% 5% 5% 5%;
       @media (max-width: 768px) {
             display: none;
@@ -41,9 +45,11 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
    }
 
    .info{
-         color: #ffffff;
+         color: #172E4E;
          padding: 0% 0% 5% ;
          font-size: 2.6rem;
+         font-family: 'Cinzel', serif ;
+         font-weight: 400;
    }
    .email{
          padding: 3% 0% 3% 6%;
@@ -55,6 +61,8 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
    }
    /* Rede Social */
    .rede {
+      font-family: 'Cinzel', serif ;
+      font-weight: 400;
       align-self: center;
       width: 40%;
       @media (max-width: 425px) {
@@ -69,14 +77,14 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
       margin-left: 10%;
    }
    .rede h1{
-      color: #ffffff;
+      color: #172E4E;
       padding: 0% 3% 1% 0%;
    }
    .rede h2{
       padding: 0% 0% 1% 8%;
    }
    .rede p{
-      color: #ffffff;
+      color: #172E4E;
       padding: 1% 0% 5% 10%;
       @media (max-width: 768px) {
             display: none;

@@ -26,6 +26,9 @@ export const HeaderStyles = styled.header`
     display: flex;
     justify-content: center;
     align-self: center;  
+    font-family: 'Cinzel', serif ;
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 .link a {
     margin: 0 10px;
