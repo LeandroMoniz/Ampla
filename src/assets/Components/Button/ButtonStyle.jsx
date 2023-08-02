@@ -6,7 +6,6 @@ export const ButtonStyled = styled.button`
         border: 2px solid #333;
         letter-spacing: 2px;
         text-align: center;
-        position: relative;
         transition: all .35s;
         color: black;
         cursor: pointer;

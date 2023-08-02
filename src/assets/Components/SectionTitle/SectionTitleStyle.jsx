@@ -22,4 +22,10 @@ export const SectionTitleStyle = styled.div`
         color: #000;
         font-weight: 3.5rem;
     }
+
+    @media (max-width: 425px) {
+        margin: 0  0  0 2rem;
+    }
+
+
 `;

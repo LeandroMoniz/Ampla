@@ -13,36 +13,34 @@ import {
     ImWhatsapp
 } from "react-icons/im"
 
+import { Link } from "react-router-dom"
+
 const MenuMobile = ({ menuIsVisible, setMenuIsVisible }) => {
     return (
         <MenuMobileStyle isVisible={menuIsVisible}>
             <IoClose size={45} onClick={() => setMenuIsVisible(false)} />
 
             <nav>
-                <a href="#home" onClick={() => setMenuIsVisible(false)}>
+                <Link to="/" onClick={() => setMenuIsVisible(false)}>
                     <span>
                         <IoHome /> Home
                     </span>
-                </a>
-
-                <a href="#about" onClick={() => setMenuIsVisible(false)}>
+                </Link>
+                <Link to="/about" onClick={() => setMenuIsVisible(false)}>
                     <span>
                         <IoPersonCircle /> Empresa
                     </span>
-                </a>
-
-                <a href="#projects" onClick={() => setMenuIsVisible(false)}>
+                </Link>
+                <Link to="/" onClick={() => setMenuIsVisible(false)}>
                     <span>
                         <IoLibraryOutline /> Serviços
                     </span>
-                </a>
-
-                <a href="#contact" onClick={() => setMenuIsVisible(false)}>
+                </Link>
+                <Link to="/about" onClick={() => setMenuIsVisible(false)}>
                     <span>
                         <IoMail /> Contato
                     </span>
-                </a>
-
+                </Link>
                 <a href="https://web.whatsapp.com/send?phone=551992310000" onClick={() => setMenuIsVisible(false)}>
                     <span>
                         <ImWhatsapp /> WhatsApp

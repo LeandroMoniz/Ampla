@@ -4,19 +4,12 @@ export const FooterStyles = styled.footer`
 background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
 
    .flex-container {
-    border-radius: 0px 300px 0px 0px;
-    border: 1px solid #000;
-    background: #FFE588;
+    background: rgba(255, 229, 136, 0.75);;
     height: 303px;
     display: flex;
     justify-content: space-evenly;
 
-    @media (max-width: 768px) {
-         border-radius: 0px 150px 0px 0px;
-        }
-
     @media (max-width: 425px) {
-         border-radius: 0px 120px 0px 0px;
          flex-direction: column;
         }
    }

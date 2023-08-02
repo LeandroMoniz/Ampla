@@ -25,20 +25,16 @@ const footer = () => {
                     <h1>SIGA-NOS</h1>
                     <h2 className="sociais">Redes Sociais</h2>
                     <p className="tex">Confira nossas redes sociais e fique <br /> por dentro de todas as novidades</p>
-                    <a className="social-media" href="https://www.linkedin.com/in/leandrogalhardomoniz/" target="blank" rel="noreferrer">
+                    <a className="social-media" href="https://www.facebook.com/siimoniz" target="blank" rel="noreferrer">
                         <img src={Facebook} alt="logo e botão Facebook" />
                     </a>
-                    <a href="https://www.linkedin.com/in/leandrogalhardomoniz/" target="blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/siimoniz/?hl=pt-br/" target="blank" rel="noreferrer">
                         <img src={Instagram} alt="logo e botão Instagram" />
                     </a>
                     <a href="https://www.linkedin.com/in/leandrogalhardomoniz/" target="blank" rel="noreferrer">
                         <img src={LinkedIn} alt="logo e botão Facebook" />
                     </a>
                 </div>
-
-
-
-
             </div>
             <div className="bass">
 
