@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const ServiceStyles = styled.main`
 height: auto;
 background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
+margin-bottom: 1%;
 
 .container {
   display: grid;
@@ -46,6 +47,12 @@ button {
 
 .box a {
     text-decoration: none;
+}
+
+@media (max-width: 425px) {
+  .container {
+  grid-template-columns: repeat(1, 1fr);
+}
 }
 
 

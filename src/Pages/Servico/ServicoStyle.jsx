@@ -39,7 +39,24 @@ export const ServicoStyles = styled.div`
         .home__blob-img {
             width: 13rem;
         }
-    }
+}
 
+@media (max-width: 425px) {
+    h1{
+            text-align: center;
+            margin-bottom: 5%;
+    }
+    .text {
+        flex-direction: column;
+        font-size: 22px;
+        padding: none;
+    }
+    .text span {
+        width: 90%;
+    }
+    .home-blob {
+        width: 70vw;
+    }
+}
 
 `
