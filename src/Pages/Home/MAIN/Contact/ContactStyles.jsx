@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const ContactStyles = styled.main`
-height: 700px;
+height: auto;
 background: linear-gradient(180deg, rgba(204, 204, 204, 0.00) 51.56%, #9E9E9E 97.92%);
+padding: 1%;
 >div.form-box {
         align-items: center;
         text-align: center;
@@ -46,8 +47,8 @@ background: linear-gradient(180deg, rgba(204, 204, 204, 0.00) 51.56%, #9E9E9E 97
             }
             button {
                 margin-top: 1rem;
-                width: 20rem;
-                height: 3rem;
+                width: 65%;
+                height: 65%;
                 font-size: 2rem;
                 font-weight: 600;
                 
@@ -59,6 +60,10 @@ background: linear-gradient(180deg, rgba(204, 204, 204, 0.00) 51.56%, #9E9E9E 97
                 margin: 20px auto;
                 max-width: 90% !important;
             }
+
         }
     }
-`
+    @media (max-width: 425px) {
+        margin-top: 140%;
+    }
+    `
