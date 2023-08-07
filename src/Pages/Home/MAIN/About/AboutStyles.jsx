@@ -36,23 +36,13 @@ background: linear-gradient(180deg, rgba(204, 204, 204, 0.00) 51.56%, #9E9E9E 97
     font-weight: 400;
     line-height: normal;
 }
+.info a{
+    text-decoration: none;
+}
 button{
-    color: #fff;
-    background-color: #FFE588;
-    border-radius: 1rem;
     margin-top: 1rem;
     width: 20rem;
-    height: 3rem;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 2rem;
-    font-weight: 600;
-    transition: 250ms ease;
-    &:hover {
-        transform: translateY(5%);
-        color: #000;
-    }
-              
+    height: 3rem;            
 }
 
 
@@ -62,19 +52,18 @@ button{
     display: flex;
     flex-direction: column ;
  }
-
  .img img {
     width: 75%;
     height: 75%;
     margin-left: 10%;
-}
-.info {
+ }
+ .info {
     width: 80%;
     padding: 2%;
-}
-button{
+ }
+ button{
     width: 15rem;
-}
+ }
 }
 
 `

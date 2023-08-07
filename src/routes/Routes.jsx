@@ -8,6 +8,14 @@ import Home from '../Pages/Home/Home';
 import MenuMobile from '../assets/Components/MenuMobile/MenuMobile'
 import About from '../Pages/About/About';
 import Contact from '../Pages/Home/MAIN/Contact/Contact';
+import Service from '../Pages/Home/MAIN/Service/Service';
+//Pages Servico
+import Servico from '../Pages/Servico/Servico';
+import ServicoTwo from '../Pages/ServicoTwo/ServicoTwo';
+import ServicoThree from '../Pages/ServicoThree/ServicoThree';
+import ServicoFour from '../Pages/ServicoFour/ServicoFour';
+import ServicoFive from '../Pages/ServicoFive/ServicoFive';
+import ServicoSix from '../Pages/ServicoSix/ServicoSix';
 
 function Routes() {
     const [menuIsVisible, setMenuIsVisible] = useState(false);
@@ -21,7 +29,14 @@ function Routes() {
             <RoutesDom>
                 <Route element={<Home />} path="/" />
                 <Route element={<About />} path="/about" />
+                <Route element={<Service />} path="/servico" />
                 <Route element={<Contact />} path="Contato" />
+                <Route element={<Servico />} path='/aep' />
+                <Route element={<ServicoTwo />} path='/aet' />
+                <Route element={<ServicoThree />} path='/gestão' />
+                <Route element={<ServicoFour />} path='/ergonomiaHome' />
+                <Route element={<ServicoFive />} path='/blitz' />
+                <Route element={<ServicoSix />} path='/assistência' />
             </RoutesDom>
             <Footer />
         </>
