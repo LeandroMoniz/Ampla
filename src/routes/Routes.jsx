@@ -30,7 +30,7 @@ function Routes() {
                 <Route element={<Home />} path="/" />
                 <Route element={<About />} path="/about" />
                 <Route element={<Service />} path="/servico" />
-                <Route element={<Contact />} path="Contato" />
+                <Route element={<Contact />} path="/contato" />
                 <Route element={<Servico />} path='/aep' />
                 <Route element={<ServicoTwo />} path='/aet' />
                 <Route element={<ServicoThree />} path='/gestão' />
