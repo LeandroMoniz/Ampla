@@ -22,11 +22,11 @@ const Header = ({ setMenuIsVisible }) => {
                         <div className="link">
                             <Link to="/">Home</Link>
                             <Link to="/about">A Empresa</Link>
-                            <Link to="/servico">Serviço</Link>
+                            <Link to="/servico">Serviços</Link>
                             <Link to="/contato">Contato</Link>
                         </div>
                         <div className="whats">
-                            <a href="https://web.whatsapp.com/send?phone=5519989310789" >
+                            <a href="https://web.whatsapp.com/send?phone=5519989310789" target="blank" rel="noreferrer"  >
                                 <img src={Whats} alt="Logo WhatsApp" />
                             </a>
                         </div>

@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const AboutStyles = styled.main`
-height: 100vh;
+height: auto;
 background: linear-gradient(180deg, rgba(204, 204, 204, 0.00) 51.56%, #9E9E9E 97.92%);
 
 .about {
@@ -38,14 +38,33 @@ background: linear-gradient(180deg, rgba(204, 204, 204, 0.00) 51.56%, #9E9E9E 97
 }
 .info a{
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
 }
 button{
     margin-top: 1rem;
     width: 20rem;
-    height: 3rem;            
+    height: 3rem; 
 }
-
-
+@media (max-width: 768px) {
+ .about {
+    display: flex;
+    flex-direction: column ;
+ }
+ .img img {
+    width: 75%;
+    height: 75%;
+    margin-left: 10%;
+ }
+ .info {
+    width: 80%;
+    padding: 2%;
+ }
+ button{
+    width: 15rem;
+ }
+}
 @media (max-width: 425px) {
   height: 195vh;
  .about {
