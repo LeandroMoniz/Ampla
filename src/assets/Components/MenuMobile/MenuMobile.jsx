@@ -31,17 +31,17 @@ const MenuMobile = ({ menuIsVisible, setMenuIsVisible }) => {
                         <IoPersonCircle /> Empresa
                     </span>
                 </Link>
-                <Link to="/" onClick={() => setMenuIsVisible(false)}>
+                <Link to="/servico" onClick={() => setMenuIsVisible(false)}>
                     <span>
                         <IoLibraryOutline /> Serviços
                     </span>
                 </Link>
-                <Link to="/about" onClick={() => setMenuIsVisible(false)}>
+                <Link to="/contato" onClick={() => setMenuIsVisible(false)}>
                     <span>
                         <IoMail /> Contato
                     </span>
                 </Link>
-                <a href="https://web.whatsapp.com/send?phone=551992310000" onClick={() => setMenuIsVisible(false)}>
+                <a href="https://web.whatsapp.com/send?phone=5519989310789" onClick={() => setMenuIsVisible(false)}>
                     <span>
                         <ImWhatsapp /> WhatsApp
                     </span>
