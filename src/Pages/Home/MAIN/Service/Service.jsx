@@ -5,9 +5,12 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
 //Photos
-import esticando from "../../../../assets/img/homem-esticando.jpg"
-import escritorio from "../../../../assets/img/homem-no-escritorio.jpg"
-import reuniao from "../../../../assets/img/vista-superior-.jpg"
+import AEP from "../../../../assets/img/AEP.jpg"
+import AET from "../../../../assets/img/AET.jpg"
+import GES from "../../../../assets/img/GESTÃO.jpg"
+import EHO from "../../../../assets/img/HOME OFFICE.jpg"
+import BPO from "../../../../assets/img/BLITZ POSTURAL.jpg"
+import ATP from "../../../../assets/img/ASSITENCIA_TECNICA.jpg"
 
 const Service = () => {
     useEffect(() => {
@@ -15,49 +18,49 @@ const Service = () => {
     }, []);
     return (
         <ServiceStyles>
-            <SectionTitle subTitle={"Um pouco mais sobre os nossos serviços"} Title={"Serviços"} />
+            <SectionTitle subTitle={"Serviços"} />
             <div className="container">
                 <div className="box">
-                    <img src={reuniao} alt="reunião" />
+                    <img src={AEP} alt="reunião" />
                     <h2>Avaliação Ergonômica Preliminar (AEP)</h2>
-                    <Button>
-                        <Link to="/aep">Saiba Mais</Link>
-                    </Button>
+                    <Link to="/aep">
+                        <Button>Saiba Mais</Button>
+                    </Link>
                 </div>
                 <div className="box">
-                    <img src={esticando} alt="homem esticando" />
+                    <img src={AET} alt="homem esticando" />
                     <h2>Análise Ergonômica do Trabalho (AET)</h2>
-                    <Button >
-                        <Link to="/aet">Saiba Mais</Link>
-                    </Button>
+                    <Link to="/aet">
+                        <Button >Saiba Mais</Button>
+                    </Link>
                 </div>
                 <div className="box">
-                    <img src={escritorio} alt="homem esticando" />
+                    <img src={GES} alt="homem esticando" />
                     <h2>Gestão em Ergonomia</h2>
-                    <Button >
-                        <Link to="/gestão">Saiba Mais</Link>
-                    </Button>
+                    <Link to="/gestão">
+                        <Button >Saiba Mais</Button>
+                    </Link>
                 </div>
                 <div className="box">
-                    <img src={escritorio} alt="homem esticando" />
+                    <img src={EHO} alt="homem esticando" />
                     <h2>Ergonomia no Home Office</h2>
-                    <Button >
-                        <Link to="/ergonomiaHome">Saiba Mais</Link>
-                    </Button>
+                    <Link to="/ergonomiaHome">
+                        <Button >Saiba Mais</Button>
+                    </Link>
                 </div>
                 <div className="box">
-                    <img src={reuniao} alt="reunião" />
+                    <img src={BPO} alt="reunião" />
                     <h2>Blitz Postural</h2>
-                    <Button >
-                        <Link to="/blitz">Saiba Mais</Link>
-                    </Button>
+                    <Link to="/blitz">
+                        <Button >Saiba Mais</Button>
+                    </Link>
                 </div>
                 <div className="box">
-                    <img src={esticando} alt="homem esticando" />
+                    <img src={ATP} alt="homem esticando" />
                     <h2>Assistência Técnica em Perícias Judiciais Trabalhistas</h2>
-                    <Button >
-                        <Link to="/assistência">Saiba Mais</Link>
-                    </Button>
+                    <Link to="/assistência">
+                        <Button >Saiba Mais</Button>
+                    </Link>
                 </div>
             </div>
         </ServiceStyles>

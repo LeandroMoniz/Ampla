@@ -11,11 +11,11 @@ import Contact from '../Pages/Home/MAIN/Contact/Contact';
 import Service from '../Pages/Home/MAIN/Service/Service';
 //Pages Servico
 import Servico from '../Pages/Servico/Servico';
-import ServicoTwo from '../Pages/ServicoTwo/ServicoTwo';
-import ServicoThree from '../Pages/ServicoThree/ServicoThree';
-import ServicoFour from '../Pages/ServicoFour/ServicoFour';
-import ServicoFive from '../Pages/ServicoFive/ServicoFive';
-import ServicoSix from '../Pages/ServicoSix/ServicoSix';
+import ServicoTwo from '../Pages/Servico/ServicoTwo';
+import ServicoThree from '../Pages/Servico/ServicoThree';
+import ServicoFour from '../Pages/Servico/ServicoFour';
+import ServicoFive from '../Pages/Servico/ServicoFive';
+import ServicoSix from '../Pages/Servico/ServicoSix';
 
 function Routes() {
     const [menuIsVisible, setMenuIsVisible] = useState(false);

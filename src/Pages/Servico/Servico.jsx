@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { ServicoStyles } from "./ServicoStyle";
 
-import SectionTitle from "../../assets/Components/SectionTitle/SectionTitle";
-import Reuniao from "../../assets/img/vista-superior-.jpg"
+//IMG
+import AEP from "../../assets/img/AEP.jpg"
 
 
 const Servico = () => {
@@ -12,7 +12,6 @@ const Servico = () => {
     return (
         <ServicoStyles>
             <main>
-                <SectionTitle subTitle={"Um pouco mais sobre os nossos serviços"} Title={"Serviços"} />
                 <h1>Avaliação Ergonômica Preliminar (AEP)</h1>
                 <div className="text">
                     <span>A Avaliação Ergonômica Preliminar (AEP) é uma avaliação inicial que busca identificar de forma geral os potenciais riscos e problemas ergonômicos em um determinado ambiente de trabalho.
@@ -33,9 +32,9 @@ const Servico = () => {
                             />
                             <image
                                 className="home__blob-img"
-                                x="22"
-                                y="18"
-                                xlinkHref={Reuniao}
+                                x="31"
+                                y="24"
+                                xlinkHref={AEP}
                                 alt="Minha foto."
                             />
                         </g>

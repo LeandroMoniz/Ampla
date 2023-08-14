@@ -4,29 +4,29 @@ export const AboutStyles = styled.main`
 height: auto;
 background: linear-gradient(180deg, rgba(204, 204, 204, 0.00) 51.56%, #9E9E9E 97.92%);
 
-.about {
+section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.img{
-    padding: 5% ;
+figure {
+    padding: 3% ;
 }
 
-.img img {
-    width: 500px;
-    height: 333.374px;
+figure img {
+    width: 100%;
+    object-fit: cover ;
     flex-shrink: 0;
 }
-.info {
+article {
     width: 50%;
     padding: 2%;
 }
-.info h2{
+article h2{
     padding-bottom: 6%;
 }
-.info span{
+article span{
     color: #000;
     display: flex;
     text-align: justify;
@@ -36,7 +36,7 @@ background: linear-gradient(180deg, rgba(204, 204, 204, 0.00) 51.56%, #9E9E9E 97
     font-weight: 400;
     line-height: normal;
 }
-.info a{
+article a{
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -48,16 +48,16 @@ button{
     height: 3rem; 
 }
 @media (max-width: 768px) {
- .about {
+ section {
     display: flex;
     flex-direction: column ;
  }
- .img img {
+ figure img {
     width: 75%;
     height: 75%;
     margin-left: 10%;
  }
- .info {
+ article {
     width: 80%;
     padding: 2%;
  }
@@ -67,16 +67,16 @@ button{
 }
 @media (max-width: 425px) {
   height: 195vh;
- .about {
+ section {
     display: flex;
     flex-direction: column ;
  }
- .img img {
+ figure img {
     width: 75%;
     height: 75%;
     margin-left: 10%;
  }
- .info {
+ article {
     width: 80%;
     padding: 2%;
  }
