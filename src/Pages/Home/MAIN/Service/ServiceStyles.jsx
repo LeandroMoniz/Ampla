@@ -1,9 +1,9 @@
 import styled from "styled-components"
 
 export const ServiceStyles = styled.main`
-height: auto;
+height: auto ;
 background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
-margin-bottom: 1%;
+padding-top: 4%;
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de tamanhos iguais */
@@ -21,14 +21,19 @@ margin-bottom: 1%;
 }
 img{
     width: 100%;
-    height: 50%;
+    object-fit: cover ;
     flex-shrink: 0;
 }
 h2 {
   margin: 3%;
-  color: #333;
+  color: #000;
   text-align: center;
-}
+  font-family: Sarabun;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
 button {
   margin-top: 9%;
   padding: 8px 12px;
@@ -37,6 +42,7 @@ button {
     text-decoration: none;
 }
 @media (max-width: 425px) {
+  margin-bottom: 100%;
   .container {
   grid-template-columns: repeat(1, 1fr);
 }

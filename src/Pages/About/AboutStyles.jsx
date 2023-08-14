@@ -3,9 +3,10 @@ import styled from "styled-components"
 export const AboutStyles = styled.main`
     height: auto;
     background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
-    padding-top: 5%;
+    padding-top: 1%;
  h1{
     margin: 3%;
+    padding-left: 10%;
  }
     
  .text {
@@ -26,7 +27,7 @@ export const AboutStyles = styled.main`
  }
 
  .text span {
-   width: 55%;
+   width: 60%;
  }
 
  .text img{

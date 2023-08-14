@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const ButtonStyled = styled.button`
-        font-family: inherit;
+        font-family: Sarabun;
         text-decoration: none;
         letter-spacing: 2px;
         text-align: center;
         transition: all .35s;
-        color: #8b8787;
+        color: #172E4E;
         cursor: pointer;
         border-radius: 1rem;
         font-weight: 500;

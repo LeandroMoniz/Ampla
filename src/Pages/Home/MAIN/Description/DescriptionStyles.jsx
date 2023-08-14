@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const DescriptionStyles = styled.main`
  height: auto;
- background: linear-gradient(180deg, #A9A5A5 20%, rgba(158, 158, 158, 0.00) 50%);
-
- .text {
+ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
+ section {
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -12,38 +11,33 @@ export const DescriptionStyles = styled.main`
     padding: 0% 0 0 8%;
     width:100%;
     flex-shrink: 0;
-    color: #000;
-    text-align: justify;
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
  }
-
- .text span {
+ section span {
    width: 50%;
+   color: #000;
+   text-align: justify;
+   font-family: Inter;
+   font-size: 200%;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
  }
-
- .text img{
-   width: 40%;
+ section img{
+   width: 50%;
+   object-fit: cover ;
  }
-
-
  @media (max-width: 425px) {
-  .text {
+  section {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
     padding: 5% 0% 0% 0%;
   }
-  .text span {
+  section span {
    width: 80%;
+   font-size: 14px;
   }
-  .text img{
+  section img{
    width: 70%;
   }
-
  }
-
 `

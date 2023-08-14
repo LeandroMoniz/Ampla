@@ -11,25 +11,29 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
 
     @media (max-width: 425px) {
          flex-direction: column;
+         height: auto;
         }
    }
    /* logo */
    .img img {
       width: 130%;
       height: 130%;
+      object-fit: cover ;
    }
    .img{
-      /* width: 30%; */
       padding: 2% 5% 5% 5%;
+
       @media (max-width: 768px) {
             display: none;
         }
-
    }
    /* Informação */
    .fullInfo {
-      align-self: center;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
       width: 40%;
+      margin-top: 4%;
       @media (max-width: 425px) {
         align-self: baseline;
          margin-left: 10%;
@@ -39,7 +43,7 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
 
    .info{
          color: #172E4E;
-         padding: 0% 0% 5% ;
+         padding: 0% 0% 5% 6%;
          font-size: 2.6rem;
          font-family: 'Cinzel', serif ;
          font-weight: 400;
@@ -58,27 +62,31 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
       font-weight: 400;
       align-self: center;
       width: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
       @media (max-width: 425px) {
          align-self: baseline;
          width: 70%;
         }
    }
    .rede a{
-      padding: 3%;
+      padding-left: 20%;
    }
    .social-media{
-      margin-left: 10%;
+      display: flex;
+      flex-direction: row;
    }
    .rede h1{
       color: #172E4E;
       padding: 0% 3% 1% 0%;
    }
    .rede h2{
-      padding: 0% 0% 1% 8%;
+      padding: 0% 0% 1% 0%;
    }
    .rede p{
       color: #172E4E;
-      padding: 1% 0% 5% 10%;
+      padding: 1% 0% 5% 0%;
       @media (max-width: 768px) {
             display: none;
         }
