@@ -8,11 +8,6 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
     height: 303px;
     display: flex;
     justify-content: space-evenly;
-
-    @media (max-width: 425px) {
-         flex-direction: column;
-         height: auto;
-        }
    }
    /* logo */
    .img img {
@@ -22,10 +17,6 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
    }
    .img{
       padding: 2% 5% 5% 5%;
-
-      @media (max-width: 768px) {
-            display: none;
-        }
    }
    /* Informação */
    .fullInfo {
@@ -34,18 +25,13 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
       align-items: flex-start;
       width: 40%;
       margin-top: 4%;
-      @media (max-width: 425px) {
-        align-self: baseline;
-         margin-left: 10%;
-         width: 70%;
-        }
    }
 
    .info{
          color: #172E4E;
          padding: 0% 0% 5% 6%;
-         font-size: 2.6rem;
-         font-family: 'Cinzel', serif ;
+         font-size: 2.1rem;
+         font-family: Sarabun;
          font-weight: 400;
    }
    .email{
@@ -58,17 +44,11 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
    }
    /* Rede Social */
    .rede {
-      font-family: 'Cinzel', serif ;
-      font-weight: 400;
       align-self: center;
       width: 40%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      @media (max-width: 425px) {
-         align-self: baseline;
-         width: 70%;
-        }
    }
    .rede a{
       padding-left: 20%;
@@ -78,15 +58,16 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
       flex-direction: row;
    }
    .rede h1{
+      font-weight: 400;
+      font-size: 2.1rem;
+      font-family: Sarabun;
       color: #172E4E;
       padding: 0% 3% 1% 0%;
-   }
-   .rede h2{
-      padding: 0% 0% 1% 0%;
    }
    .rede p{
       color: #172E4E;
       padding: 1% 0% 5% 0%;
+      font-family: inter;
       @media (max-width: 768px) {
             display: none;
         }
@@ -95,5 +76,36 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
    .bass {
     height: 50px;
     background: #172E4E;
+   }
+   @media (max-width: 768px) {
+      .img {display: none;}
+        }
+   @media (max-width: 425px) {
+      .flex-container{
+         flex-direction: column;
+         height: auto;
+      }
+      .fullInfo {
+         align-self: baseline;
+         margin-left: 10%;
+         padding-bottom: 6%;
+         width: 70%;
+        };
+      .fullInfo p {
+         font-size: 0.8rem;
+      }
+      .info{
+         padding: 0% 0% 1% 6%;
+         font-size: 1.8rem;
+   }
+      .rede {
+            align-self: baseline;
+            width: 70%;
+            padding-bottom: 3%;
+         }
+      .rede h1{
+         padding-left: 5% ;
+         font-size: 1.5rem;
+      }
    }
 `

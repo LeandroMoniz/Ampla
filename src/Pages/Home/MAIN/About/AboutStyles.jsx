@@ -10,15 +10,7 @@ section {
     justify-content: center;
     align-items: center;
 }
-figure {
-    padding: 3% ;
-}
 
-figure img {
-    width: 100%;
-    object-fit: cover ;
-    flex-shrink: 0;
-}
 article {
     width: 50%;
     padding: 2%;
@@ -47,6 +39,15 @@ button{
     width: 20rem;
     height: 3rem; 
 }
+.home-blob {
+        width: 40vw;
+        path {
+            fill: #554141;
+        }
+        .home__blob-img {
+            width: 13rem;
+        }
+}
 @media (max-width: 768px) {
  section {
     display: flex;
@@ -66,7 +67,6 @@ button{
  }
 }
 @media (max-width: 425px) {
-  height: 195vh;
  section {
     display: flex;
     flex-direction: column ;
@@ -79,6 +79,9 @@ button{
  article {
     width: 80%;
     padding: 2%;
+ }
+ article span{
+    font-size: 14px;
  }
  button{
     width: 15rem;

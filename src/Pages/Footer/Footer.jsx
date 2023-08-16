@@ -1,7 +1,7 @@
 import { FooterStyles } from "./FooterStyles";
 
 //IMG
-import logo from "../../assets/img/logo-footer.png"
+import logo from "../../assets/img/logo_ampla.png"
 
 import Facebook from "../../assets/img/logos_facebook.svg"
 import Instagram from "../../assets/img/skill-icons_instagram.svg"
@@ -17,22 +17,20 @@ const footer = () => {
                 </figure>
                 <section className="fullInfo">
                     <h1 className="info">Informação</h1>
-                    <p className="email">Email: contato@amplaengonomia.com.br</p>
-                    <p className="phone">+55 (19) 99999-5555</p>
-                    <p className="phone">+55 (19) 99999-5555</p>
+                    <p className="email">Email: contato@amplaergonomia.com.br</p>
+                    <p className="phone">+55 (19) 98931-0789</p>
                 </section>
                 <section className="rede">
                     <h1>SIGA-NOS</h1>
-                    {/* <h2 className="sociais">Redes Sociais</h2> */}
                     <p className="tex">Confira nossas redes sociais e fique <br /> por dentro de todas as novidades</p>
                     <figure className="social-media">
                         <a href="https://www.facebook.com/siimoniz" target="blank" rel="noreferrer">
                             <img src={Facebook} alt="logo e botão Facebook" />
                         </a>
-                        <a href="https://www.instagram.com/siimoniz/?hl=pt-br/" target="blank" rel="noreferrer">
+                        <a href="https://www.instagram.com/amplaergonomia/?igshid=MzRlODBiNWFlZA%3D%3D" target="blank" rel="noreferrer">
                             <img src={Instagram} alt="logo e botão Instagram" />
                         </a>
-                        <a href="https://www.linkedin.com/in/leandrogalhardomoniz/" target="blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/simonemoniz/" target="blank" rel="noreferrer">
                             <img src={LinkedIn} alt="logo e botão Facebook" />
                         </a>
                     </figure>

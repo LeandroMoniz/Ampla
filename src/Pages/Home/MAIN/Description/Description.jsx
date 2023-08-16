@@ -1,6 +1,6 @@
 import { DescriptionStyles } from "./DescriptionStyles";
 //IMG
-import logo from "../../../../assets/img/logo-footer.png";
+import logo from "../../../../assets/img/logo_ampla.png";
 
 const Description = () => {
     return (
