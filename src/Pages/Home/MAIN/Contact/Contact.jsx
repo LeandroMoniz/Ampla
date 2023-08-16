@@ -5,7 +5,7 @@ import Button from '../../../../assets/Components/Button/Button'
 const Contact = () => {
     return (
         <ContactStyles>
-            <SectionTitle subTitle={"Entre em contato"} Title={"Contato"} />
+            <SectionTitle subTitle={"Contato"} />
             <div className='form-box'>
                 <form target="_blank" action="https://formsubmit.co/Leandromoniz55@gmail.com" method="POST">
                     <label htmlFor="name">Nome</label>
