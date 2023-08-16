@@ -8,8 +8,7 @@ export const ServicoStyles = styled.div`
     h1{
     display: flex;
     justify-content: center;
- }
-    
+ }   
  .text {
     display: flex;
     flex-direction: row;
@@ -26,7 +25,6 @@ export const ServicoStyles = styled.div`
     font-weight: 400;
     line-height: normal;
  }
-
  .text span {
    width: 55%;
  }
@@ -47,7 +45,7 @@ export const ServicoStyles = styled.div`
     }
     .text {
         flex-direction: column;
-        font-size: 22px;
+        font-size: 18px;
         padding: none;
     }
     .text span {

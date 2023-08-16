@@ -2,7 +2,7 @@ import { AboutStyles } from "./AboutStyles";
 import { useEffect } from "react";
 
 //img
-import logo from "../../assets/img/logo-footer.png";
+import logo from "../../assets/img/logo_ampla.png";
 
 const About = () => {
     useEffect(() => {

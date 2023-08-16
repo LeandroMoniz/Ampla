@@ -44,6 +44,7 @@ export const AboutStyles = styled.main`
   }
   .text span {
    width: 80%;
+   font-size: 14px;
   }
   .text img{
    width: 70%;
