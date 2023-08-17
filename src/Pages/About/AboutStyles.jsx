@@ -5,8 +5,8 @@ export const AboutStyles = styled.main`
     background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
     padding-top: 1%;
  h1{
-    margin: 3%;
-    padding-left: 10%;
+    margin-top: 6%;
+    padding-left: 8%;
  }
     
  .text {
@@ -20,7 +20,7 @@ export const AboutStyles = styled.main`
     color: #000;
     text-align: justify;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

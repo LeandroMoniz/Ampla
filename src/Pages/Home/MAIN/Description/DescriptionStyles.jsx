@@ -17,7 +17,7 @@ export const DescriptionStyles = styled.main`
    color: #000;
    text-align: justify;
    font-family: Inter;
-   font-size: 200%;
+   font-size: 24px;
    font-style: normal;
    font-weight: 400;
    line-height: normal;

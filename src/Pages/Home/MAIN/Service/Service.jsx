@@ -24,42 +24,42 @@ const Service = () => {
                     <img src={AEP} alt="reunião" />
                     <h2>Avaliação Ergonômica Preliminar (AEP)</h2>
                     <Link to="/aep">
-                        <Button>Saiba Mais</Button>
+                        <Button>SAIBA MAIS</Button>
                     </Link>
                 </div>
                 <div className="box">
                     <img src={AET} alt="homem esticando" />
                     <h2>Análise Ergonômica do Trabalho (AET)</h2>
                     <Link to="/aet">
-                        <Button >Saiba Mais</Button>
+                        <Button >SAIBA MAIS</Button>
                     </Link>
                 </div>
                 <div className="box">
                     <img src={GES} alt="homem esticando" />
                     <h2>Gestão em Ergonomia</h2>
                     <Link to="/gestão">
-                        <Button >Saiba Mais</Button>
+                        <Button >SAIBA MAIS</Button>
                     </Link>
                 </div>
                 <div className="box">
                     <img src={EHO} alt="homem esticando" />
                     <h2>Ergonomia no Home Office</h2>
                     <Link to="/ergonomiaHome">
-                        <Button >Saiba Mais</Button>
+                        <Button >SAIBA MAIS</Button>
                     </Link>
                 </div>
                 <div className="box">
                     <img src={BPO} alt="reunião" />
                     <h2>Blitz Postural</h2>
                     <Link to="/blitz">
-                        <Button >Saiba Mais</Button>
+                        <Button >SAIBA MAIS</Button>
                     </Link>
                 </div>
                 <div className="box">
                     <img src={ATP} alt="homem esticando" />
                     <h2>Assistência Técnica em Perícias Judiciais Trabalhistas</h2>
                     <Link to="/assistência">
-                        <Button >Saiba Mais</Button>
+                        <Button >SAIBA MAIS</Button>
                     </Link>
                 </div>
             </div>

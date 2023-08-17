@@ -21,16 +21,16 @@ const footer = () => {
                     <p className="phone">+55 (19) 98931-0789</p>
                 </section>
                 <section className="rede">
-                    <h1>SIGA-NOS</h1>
+                    <h1>Siga-Nos</h1>
                     <p className="tex">Confira nossas redes sociais e fique <br /> por dentro de todas as novidades</p>
                     <figure className="social-media">
-                        <a href="https://www.facebook.com/siimoniz" target="blank" rel="noreferrer">
+                        <a href="https://www.facebook.com/profile.php?id=61550485622749" target="blank" rel="noreferrer">
                             <img src={Facebook} alt="logo e botão Facebook" />
                         </a>
                         <a href="https://www.instagram.com/amplaergonomia/?igshid=MzRlODBiNWFlZA%3D%3D" target="blank" rel="noreferrer">
                             <img src={Instagram} alt="logo e botão Instagram" />
                         </a>
-                        <a href="https://www.linkedin.com/in/simonemoniz/" target="blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/company/amplaergonomia/" target="blank" rel="noreferrer">
                             <img src={LinkedIn} alt="logo e botão Facebook" />
                         </a>
                     </figure>
