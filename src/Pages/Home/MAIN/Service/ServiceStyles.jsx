@@ -37,6 +37,7 @@ h2 {
 button {
   margin-top: 9%;
   padding: 8px 12px;
+  font-size: 18px;
 }
 .box a {
     text-decoration: none;

@@ -16,7 +16,7 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
       object-fit: cover ;
    }
    .img{
-      padding: 2% 5% 5% 5%;
+      padding: 2% 5% 7% 5%;
    }
    /* Informação */
    .fullInfo {
@@ -24,18 +24,18 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
       flex-direction: column;
       align-items: flex-start;
       width: 40%;
-      margin-top: 4%;
+      margin-top: 5%;
    }
 
    .info{
          color: #172E4E;
-         padding: 0% 0% 5% 6%;
+         padding-left: 6%;
          font-size: 2.1rem;
          font-family: Sarabun;
          font-weight: 400;
    }
    .email{
-         padding: 3% 0% 3% 6%;
+         padding: 2% 0% 3% 6%;
         font-size: 1rem;
    }
    .phone{
@@ -66,7 +66,7 @@ background: linear-gradient(180deg, #A19E9E 0%, rgba(158, 158, 158, 0.00) 50%);
    }
    .rede p{
       color: #172E4E;
-      padding: 1% 0% 5% 0%;
+      padding: 2% 0% 5% 0%;
       font-family: inter;
       @media (max-width: 768px) {
             display: none;

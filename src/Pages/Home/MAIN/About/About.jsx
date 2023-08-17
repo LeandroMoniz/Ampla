@@ -35,8 +35,8 @@ const About = () => {
                     </svg>
                 </figure>
                 <article>
-                    <h2>EMPRESA</h2>
-                    <span>Descubra a AMPLA Ergonomia! Promovemos bem-estar e saúde no trabalho, soluções ergonômicas personalizadas para empresas. Parceira confiável para um ambiente produtivo e seguro. Entre em contato e transforme sua empresa com nossos serviços especializados.</span>
+                    <h2>A EMPRESA</h2>
+                    <span>Descubra a Ampla Ergonomia! <br /> Promovemos bem-estar e saúde no trabalho, soluções ergonômicas personalizadas para empresas. Parceira confiável para um ambiente produtivo e seguro.<br /> Entre em contato e transforme sua empresa com nossos serviços especializados.</span>
                     <Link to="/about"><Button type="about">NOSSA HISTÓRIA</Button></Link>
                 </article>
             </section>
