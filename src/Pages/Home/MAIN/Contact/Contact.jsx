@@ -7,7 +7,7 @@ const Contact = () => {
         <ContactStyles>
             <SectionTitle subTitle={"Contato"} />
             <div className='form-box'>
-                <form target="_blank" action="https://formsubmit.co/Leandromoniz55@gmail.com" method="POST">
+                <form target="_blank" action="https://formsubmit.co/contato@amplaergonomia.com.br" method="POST">
                     <label htmlFor="name">Nome</label>
                     <input type="text" id='name' name="name" placeholder='Escreva seu nome' required />
                     <label htmlFor="e-mail">E-mail</label>
