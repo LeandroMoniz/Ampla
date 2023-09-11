@@ -35,7 +35,7 @@ const ServicoSix = () => {
                                 x="22"
                                 y="18"
                                 xlinkHref={ATP}
-                                alt="Minha foto."
+                                alt="Homem e mulher dando um aperto de mão."
                             />
                         </g>
                     </svg>

@@ -35,7 +35,7 @@ const ServicoFour = () => {
                                 x="22"
                                 y="18"
                                 xlinkHref={EHO}
-                                alt="Minha foto."
+                                alt="Homem branco, esticando na cadeira em um escritorio."
                             />
                         </g>
                     </svg>

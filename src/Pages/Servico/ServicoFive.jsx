@@ -36,7 +36,7 @@ const ServicoFive = () => {
                                 x="22"
                                 y="18"
                                 xlinkHref={BPO}
-                                alt="Minha foto."
+                                alt="Mulher negra em escritorio, fazendo alongamento dos braços."
                             />
                         </g>
                     </svg>

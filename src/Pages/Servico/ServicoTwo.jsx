@@ -33,7 +33,7 @@ const ServicoTwo = () => {
                                 x="22"
                                 y="18"
                                 xlinkHref={AET}
-                                alt="Homem e uma mulher em um armazém, fiscalizando"
+                                alt="Homem e mulher brancos de capacete azul e uniforme amarelo, com papel na mão, fazendo vistoria em estoque."
                             />
                         </g>
                     </svg>

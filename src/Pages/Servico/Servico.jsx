@@ -35,7 +35,7 @@ const Servico = () => {
                                 x="31"
                                 y="24"
                                 xlinkHref={AEP}
-                                alt="Minha foto."
+                                alt="Homem branco com capacete amarelo e luvas de proteção, ambiente de fabrica fazendo o sinal de positivo."
                             />
                         </g>
                     </svg>

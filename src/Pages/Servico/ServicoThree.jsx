@@ -34,7 +34,7 @@ const ServicoThree = () => {
                                 x="22"
                                 y="18"
                                 xlinkHref={GES}
-                                alt="Minha foto."
+                                alt="Uma reunião com quatro pessoas, três em uma mesa sendo duas mulheres e um homem , outra homem mais atrás em pé , todos comemorando."
                             />
                         </g>
                     </svg>
